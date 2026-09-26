@@ -97,9 +97,16 @@ Research date: **2026-09-25**. Scope: HANDOFF §19 Phase 0 and §25 A.
 
 - New DOK users get a **¥3,000** free credit, usable on all plans including H100 [S]
   ([trial notice][dok-trial]).
-- **Ambassador ¥100k/month GPU credit.** No public information. Whether it applies to DOK, whether
-  unused credit carries over, and whether H100 is included are all **[TODO — ask Sakura ambassador
-  contact]**. This is a project-level assumption (HANDOFF §1.1).
+- **Ambassador credit.** Observed in the control panel (クーポン page) on 2026-09-26 by the owner [V]:
+  - The credit is a Sakura Cloud **coupon** ("学生アンバサダー向けのクーポン").
+  - It was applied 2026-09-25 13:23 and **expires 2026-09-30**. Unused balance appears to lapse at
+    the end of the period, not carry over.
+  - Balance shown: **¥99,736**, so about ¥264 has been consumed.
+  - The balance **updates with a 1-day lag** (「残高は1日遅れて更新されます」). It can't be used as a
+    live budget signal, only for next-day reconciliation.
+  - A coupon balance alert (クーポン残高アラート) exists in the panel.
+  - **[TODO]** Does the coupon cover DOK/H100 usage? The ¥264 may answer this if it came from a DOK
+    task. Is a new coupon issued each month, and is the period always calendar-month-aligned?
 
 **Reference arithmetic.** Uses the β H100 price. Replace it once the GA price is known.
 
